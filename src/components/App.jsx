@@ -25,7 +25,6 @@ export default class App extends Component {
         />
         <Statistics title="Upload stats" stats={data} />
         <FriendList friends={friends} />;
-        <TransactionHistory items={transactions} />;
       </Container>
     );
   }
