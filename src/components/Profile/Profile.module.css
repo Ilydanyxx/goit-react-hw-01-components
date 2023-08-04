@@ -1,3 +1,28 @@
+.profile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  padding-top: 20px;
+  width: 100px;
+  border-radius: 90px;
+}
+.name {
+  margin-top: 24px;
+}
 .tag {
-  color: red;
+  color: #999;
+}
+.location {
+  color: #999;
+}
+.stats {
+  list-style: none;
+  padding: 0;
+}
+.label {
+  margin-right: 4px;
+  color: #999;
 }
